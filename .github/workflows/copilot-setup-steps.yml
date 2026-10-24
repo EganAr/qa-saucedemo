@@ -13,6 +13,10 @@ jobs:
   copilot-setup-steps:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: automation-test
+
     permissions:
       contents: read
 
